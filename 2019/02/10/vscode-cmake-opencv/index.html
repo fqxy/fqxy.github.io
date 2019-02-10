@@ -96,24 +96,25 @@
 
 
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+  <meta name="description" content="记录安装过程">
+<meta name="keywords" content="opencv">
 <meta property="og:type" content="article">
-<meta property="og:title" content="one day">
-<meta property="og:url" content="https://fqxy.github.io/2019/02/08/one-day/index.html">
-<meta property="og:site_name" content="fqxy">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta property="og:title" content="vscode+cmake+opencv">
+<meta property="og:url" content="https://fqxy.github.io/2019/02/10/vscode-cmake-opencv/index.html">
+<meta property="og:site_name" content="我的一点点记录">
+<meta property="og:description" content="记录安装过程">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-08T02:52:50.761Z">
+<meta property="og:updated_time" content="2019-02-10T08:36:48.335Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="one day">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="vscode+cmake+opencv">
+<meta name="twitter:description" content="记录安装过程">
 
 
 
 
 
 
-  <link rel="canonical" href="https://fqxy.github.io/2019/02/08/one-day/">
+  <link rel="canonical" href="https://fqxy.github.io/2019/02/10/vscode-cmake-opencv/">
 
 
 
@@ -123,7 +124,7 @@
   };
 </script>
 
-  <title>one day | fqxy</title>
+  <title>vscode+cmake+opencv | 我的一点点记录</title>
   
 
 
@@ -182,13 +183,13 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">fqxy</span>
+        <span class="site-title">我的一点点记录</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
     
       
-        <p class="site-subtitle">everyday</p>
+        <p class="site-subtitle">通过博客来戒除自己的拖延症！</p>
       
     
     
@@ -321,7 +322,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fqxy.github.io/2019/02/08/one-day/">
+    <link itemprop="mainEntityOfPage" href="https://fqxy.github.io/2019/02/10/vscode-cmake-opencv/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Qiang Fu">
@@ -330,7 +331,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="fqxy">
+      <meta itemprop="name" content="我的一点点记录">
     </span>
 
     
@@ -338,7 +339,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">one day
+          <h1 class="post-title" itemprop="name headline">vscode+cmake+opencv
 
               
             
@@ -364,7 +365,7 @@
                 
               
 
-              <time title="创建时间：2019-02-08 10:49:33 / 修改时间：10:52:50" itemprop="dateCreated datePublished" datetime="2019-02-08T10:49:33+08:00">2019-02-08</time>
+              <time title="创建时间：2019-02-10 13:38:43 / 修改时间：16:36:48" itemprop="dateCreated datePublished" datetime="2019-02-10T13:38:43+08:00">2019-02-10</time>
             
 
             
@@ -374,6 +375,24 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/安装/" itemprop="url" rel="index"><span itemprop="name">安装</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -399,7 +418,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">431</span>
+                <span title="本文字数">4.1k</span>
               
 
               
@@ -423,17 +442,78 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p class="description">记录安装过程</p>
 
+<a id="more"></a>
+<h2 id="简要介绍"><a href="#简要介绍" class="headerlink" title="简要介绍"></a>简要介绍</h2><ul>
+<li>平台：Windows10</li>
+<li>编辑器：vscode</li>
+<li>编程语言：C++</li>
+<li>编译器：mingw64</li>
+<li>组织框架：cmake-3.7.2-win64-x64</li>
+<li>视觉库：OpenCV 3.4.1-x64</li>
+</ul>
+<h2 id="mingw64"><a href="#mingw64" class="headerlink" title="mingw64"></a>mingw64</h2><h3 id="安装前"><a href="#安装前" class="headerlink" title="安装前"></a>安装前</h3><ul>
+<li><a href="https://sourceforge.net/projects/mingw-w64/" target="_blank" rel="noopener">下载</a></li>
+<li>安装选项：<ul>
+<li>Version : 8.1.0</li>
+<li>Architecture : ×86_64</li>
+<li>Threads : poxis</li>
+<li>Exception : seh</li>
+<li>Build revision : 0</li>
+</ul>
+</li>
+</ul>
+<h3 id="安装后"><a href="#安装后" class="headerlink" title="安装后"></a>安装后</h3><ul>
+<li>下载好将<code>bin</code>目录加入环境变量，我的是<code>C:\dev\MinGW\mingw64\bin</code></li>
+<li>将<code>bin</code>目录中的<code>mingw32-make.exe</code>拷贝一份重命名为<code>make.exe</code></li>
+<li>这样可以直接在终端使用</li>
+<li>在我的<code>C:\dev\MinGW\mingw64\bin</code>中发现有<code>gcc</code>、<code>g++</code>、<code>gdb</code></li>
+<li>在终端中输入<code>gcc</code>、<code>g++</code>、<code>gdb</code>会有反应</li>
+</ul>
+<h2 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h2><ul>
+<li><a href="https://cmake.org/download/" target="_blank" rel="noopener">下载</a></li>
+<li>下载好将<code>bin</code>目录加入环境变量，我的是<code>C:\dev\cmake-3.7.2-win64-x64\bin</code></li>
+<li>这样可以直接在终端使用</li>
+</ul>
+<h2 id="OpenCV"><a href="#OpenCV" class="headerlink" title="OpenCV"></a>OpenCV</h2><div class="note primary"><p>方法一：用别人编译好的opencv：<a href="https://github.com/huihut/OpenCV-MinGW-Build" target="_blank" rel="noopener">OpenCV-MinGW-Build</a></p></div>
+
+<div class="note info"><p>方法二：自己用cmake编译opencv源代码</p></div>
+
+<ul>
+<li>我采用的是<code>方法一</code></li>
+<li>下载好将<code>bin</code>目录加入环境变量，我的是<code>C:\dev\OpenCV-MinGW-Build\x64\mingw\bin</code></li>
+<li>有时间再讲如何自己编译</li>
+</ul>
+<div class="note danger"><p>因此，加入环境变量的有mingw64、cmake、OpenCV</p></div>
+
+<h2 id="vscode和C"><a href="#vscode和C" class="headerlink" title="vscode和C++"></a>vscode和C++</h2><h3 id="工程目录"><a href="#工程目录" class="headerlink" title="工程目录"></a>工程目录</h3><figure class="highlight bash"><figcaption><span>工程目录</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">│</span><br><span class="line">├─.vscode</span><br><span class="line">|      c_cpp_properties.json</span><br><span class="line">│      launch.json</span><br><span class="line">│      tasks.json</span><br><span class="line">|</span><br><span class="line">└─ CMakeLists.txt</span><br><span class="line">   test.cpp</span><br><span class="line">   test.jpg</span><br></pre></td></tr></table></figure>
+<h3 id="vscode里的3个文件"><a href="#vscode里的3个文件" class="headerlink" title=".vscode里的3个文件"></a>.vscode里的3个文件</h3><div class="note primary"><p>这3个文件中只有json c_cpp_properties.json是必须的，后两个可以先不用</p></div>
+
+<h4 id="json-c-cpp-properties-json"><a href="#json-c-cpp-properties-json" class="headerlink" title="json c_cpp_properties.json"></a>json c_cpp_properties.json</h4><div class="note info"><p>json c_cpp_properties.json的主要作用是找到相关头文件、找到编译器</p></div>
+
+<ul>
+<li><code>includePath</code>改为编译好的opencv中的<code>include</code>目录，我的是<code>C:/dev/OpenCV-MinGW-Build/include</code></li>
+<li><code>compilerPath</code>改为编译器所在位置，我的是<code>C:/dev/MinGW/mingw64/bin/g++</code></li>
+</ul>
+<figure class="highlight json"><figcaption><span>c_cpp_properties.json</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"configurations"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">"name"</span>: <span class="string">"Win32"</span>,</span><br><span class="line">            <span class="attr">"includePath"</span>: [</span><br><span class="line">                <span class="string">"$&#123;workspaceFolder&#125;/**"</span>,</span><br><span class="line">                <span class="string">"C:/dev/OpenCV-MinGW-Build/include"</span>,</span><br><span class="line">                <span class="string">"C:/dev/OpenCV-MinGW-Build/include/opencv2"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="attr">"defines"</span>: [</span><br><span class="line">                <span class="string">"_DEBUG"</span>,</span><br><span class="line">                <span class="string">"UNICODE"</span>,</span><br><span class="line">                <span class="string">"_UNICODE"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="attr">"compilerPath"</span>: <span class="string">"C:/dev/MinGW/mingw64/bin/g++"</span>,</span><br><span class="line">            <span class="attr">"cStandard"</span>: <span class="string">"c11"</span>,</span><br><span class="line">            <span class="attr">"cppStandard"</span>: <span class="string">"c++17"</span>,</span><br><span class="line">            <span class="attr">"intelliSenseMode"</span>: <span class="string">"msvc-x64"</span></span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">"version"</span>: <span class="number">4</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="launch-json"><a href="#launch-json" class="headerlink" title="launch.json"></a>launch.json</h4><div class="note info"><p>launch.json的主要作用是进行调试的设置</p></div>
+
+<figure class="highlight"><figcaption><span>launch.json</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</span><br><span class="line">    <span class="attr">"configurations"</span>: [</span><br><span class="line"></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">"name"</span>: <span class="string">"C++ Launch (GDB)"</span>,</span><br><span class="line">            <span class="attr">"type"</span>: <span class="string">"cppdbg"</span>,</span><br><span class="line">            <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">            "program": "$&#123;workspaceFolder&#125;/build/bin/hello", // 可执行文件位置</span><br><span class="line">            "miDebuggerPath": "C:/dev/MinGW/mingw64/bin/gdb.exe", // gdb 位置</span><br><span class="line">            "args": [],</span><br><span class="line">            "stopAtEntry": false,</span><br><span class="line">            "cwd": "$&#123;workspaceFolder&#125;",</span><br><span class="line">            "environment": [],</span><br><span class="line">            "externalConsole": true,</span><br><span class="line">            "MIMode": "gdb",</span><br><span class="line">            "preLaunchTask": "compile", // task.json 中的 label</span><br><span class="line">            "setupCommands": [</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"description"</span>: <span class="string">"Enable pretty-printing for gdb"</span>,</span><br><span class="line">                    <span class="attr">"text"</span>: <span class="string">"-enable-pretty-printing"</span>,</span><br><span class="line">                    <span class="attr">"ignoreFailures"</span>: <span class="literal">true</span></span><br><span class="line">                &#125;</span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="tasks-json"><a href="#tasks-json" class="headerlink" title="tasks.json"></a>tasks.json</h4><div class="note info"><p>tasks.json的主要作用是在调试前进行编译，实现自动化</p></div>
+
+<figure class="highlight json"><figcaption><span>tasks.json</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>,</span><br><span class="line">    <span class="attr">"tasks"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">"label"</span>: <span class="string">"compile"</span>,</span><br><span class="line">            <span class="attr">"type"</span>: <span class="string">"shell"</span>,</span><br><span class="line">            <span class="attr">"command"</span>: <span class="string">"build.bat"</span>,</span><br><span class="line">            <span class="attr">"group"</span>: &#123;</span><br><span class="line">                <span class="attr">"kind"</span>: <span class="string">"build"</span>,</span><br><span class="line">                <span class="attr">"isDefault"</span>: <span class="literal">true</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h3><figure class="highlight cpp"><figcaption><span>test.cpp</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta"># <span class="meta-keyword">include</span> <span class="meta-string">"opencv2/opencv.hpp"</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Mat image;</span><br><span class="line">    image = imread(<span class="string">"../test.jpg"</span>, IMREAD_COLOR); <span class="comment">// Read the file</span></span><br><span class="line"></span><br><span class="line">    namedWindow(<span class="string">"Display window"</span>, WINDOW_AUTOSIZE); <span class="comment">// Create a window for display.</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (!image.data) <span class="comment">// Check for invalid input</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"Could not open or find the image"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        imshow(<span class="string">"Display window"</span>, image); <span class="comment">// Show our image inside it.</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    waitKey(<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="CMakeLists-txt"><a href="#CMakeLists-txt" class="headerlink" title="CMakeLists.txt"></a>CMakeLists.txt</h3><ul>
+<li><p>需要将<code>OpenCV_DIR</code>修改为<code>OpenCVConfig.cmake</code>所在目录</p>
+</li>
+<li><p>我的<code>OpenCVConfig.cmake</code>在<code>C:/dev/OpenCV-MinGW-Build/x64/mingw/lib</code>里面</p>
+</li>
+</ul>
+<div class="note info"><p>通过换不同的OpenCVConfig.cmake可以实现不同版本OpenCV的切换</p></div>
+
+<figure class="highlight cmake"><figcaption><span>CMakeLists.txt</span><a href="https://github.com/fqxy/effective-opencv" target="_blank" rel="noopener">我的github</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">2.8</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">project</span>(effective-opencv)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(OpenCV_DIR <span class="string">"C:/dev/OpenCV-MinGW-Build/x64/mingw/lib"</span>)</span><br><span class="line"><span class="keyword">find_package</span>(OpenCV REQUIRED)</span><br><span class="line"><span class="keyword">include_directories</span>(<span class="variable">$&#123;OpenCV_INCLUDE_DIRS&#125;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">add_executable</span>(<span class="keyword">test</span> <span class="keyword">test</span>.cpp)</span><br><span class="line"></span><br><span class="line"><span class="keyword">target_link_libraries</span>(<span class="keyword">test</span> <span class="variable">$&#123;OpenCV_LIBS&#125;</span>)</span><br></pre></td></tr></table></figure>
+<hr>
       
     </div>
 
@@ -454,6 +534,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/opencv/" rel="tag"># opencv</a>
+          
+        </div>
+      
 
       
       
@@ -463,8 +549,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/02/07/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/02/08/sheep/" rel="next" title="sheep">
+                <i class="fa fa-chevron-left"></i> sheep
               </a>
             
           </div>
@@ -472,10 +558,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/02/08/sheep/" rel="prev" title="sheep">
-                sheep <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -547,14 +629,40 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
               
             </nav>
           
@@ -641,7 +749,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简要介绍"><span class="nav-number">1.</span> <span class="nav-text">简要介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mingw64"><span class="nav-number">2.</span> <span class="nav-text">mingw64</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装前"><span class="nav-number">2.1.</span> <span class="nav-text">安装前</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装后"><span class="nav-number">2.2.</span> <span class="nav-text">安装后</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cmake"><span class="nav-number">3.</span> <span class="nav-text">cmake</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OpenCV"><span class="nav-number">4.</span> <span class="nav-text">OpenCV</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vscode和C"><span class="nav-number">5.</span> <span class="nav-text">vscode和C++</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#工程目录"><span class="nav-number">5.1.</span> <span class="nav-text">工程目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#vscode里的3个文件"><span class="nav-number">5.2.</span> <span class="nav-text">.vscode里的3个文件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#json-c-cpp-properties-json"><span class="nav-number">5.2.1.</span> <span class="nav-text">json c_cpp_properties.json</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#launch-json"><span class="nav-number">5.2.2.</span> <span class="nav-text">launch.json</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#tasks-json"><span class="nav-number">5.2.3.</span> <span class="nav-text">tasks.json</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#源代码"><span class="nav-number">5.3.</span> <span class="nav-text">源代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CMakeLists-txt"><span class="nav-number">5.4.</span> <span class="nav-text">CMakeLists.txt</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -673,7 +781,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">5k</span>
   
 
   
