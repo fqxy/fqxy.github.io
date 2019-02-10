@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[opencv]]></title>
+    <url>%2F2019%2F02%2F10%2Fopencv%2F</url>
+    <content type="text"><![CDATA[简单介绍一下OpenCV 1.如何安装2.具体函数3.如何卸载]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[sheep]]></title>
     <url>%2F2019%2F02%2F08%2Fsheep%2F</url>
     <content type="text"><![CDATA[Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment 这是一个实例链接12345678910111213141516def confirmHSV(img, points): # 转成HSV格式并且滤波 imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV) # 高斯滤波 blurHSV = cv2.GaussianBlur(imgHSV, (21, 21), 0) BGRs = [] HSVs = [] for point in points: x = point[1] y = point[0] bgr = list(img[x, y]) # hsv = list(cv2.cvtColor(np.uint8([[bgr]]), cv2.COLOR_BGR2HSV)[0][0]) hsv = list(blurHSV[x, y]) default primary success info warning danger 选项卡 1选项卡 2选项卡 3这是选项卡 1 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈……这是选项卡 2这是选项卡 3 哇，你找到我了！φ(≧ω≦*)♪～ 点击下载百度]]></content>
