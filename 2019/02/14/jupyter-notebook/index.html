@@ -96,20 +96,25 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="一点点记录">
-<meta property="og:url" content="https://fqxy.github.io/tags/opencv/index.html">
+  <meta name="description" content="如何美化jupyter notebook">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jupyter notebook">
+<meta property="og:url" content="https://fqxy.github.io/2019/02/14/jupyter-notebook/index.html">
 <meta property="og:site_name" content="一点点记录">
+<meta property="og:description" content="如何美化jupyter notebook">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-02-14T10:31:20.236Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一点点记录">
+<meta name="twitter:title" content="jupyter notebook">
+<meta name="twitter:description" content="如何美化jupyter notebook">
 
 
 
 
 
 
-  <link rel="canonical" href="https://fqxy.github.io/tags/opencv/">
+  <link rel="canonical" href="https://fqxy.github.io/2019/02/14/jupyter-notebook/">
 
 
 
@@ -119,7 +124,7 @@
   };
 </script>
 
-  <title>标签: opencv | 一点点记录</title>
+  <title>jupyter notebook | 一点点记录</title>
   
 
 
@@ -167,7 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -256,19 +261,6 @@
   
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
   
 
   
@@ -314,56 +306,367 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>opencv<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fqxy.github.io/2019/02/14/jupyter-notebook/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qiang Fu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一点点记录">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/02/10/vscode-cmake-opencv/" itemprop="url">
-            
-              <span itemprop="name">vscode+cmake+opencv</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">jupyter notebook
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-02-10T13:38:43+08:00" content="2019-02-10">
-          02-10
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-02-14 18:15:17 / 修改时间：18:31:20" itemprop="dateCreated datePublished" datetime="2019-02-14T18:15:17+08:00">2019-02-14</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">1.6k</span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p class="description">如何美化jupyter notebook</p>
+
+<a id="more"></a>
+<h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><ul>
+<li>首先是<a href="https://github.com/dunovank/jupyter-themes" target="_blank" rel="noopener">主题</a>下载，命令行如下所示：</li>
+</ul>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --no-dependencies jupyterthemes==<span class="number">0.18</span><span class="number">.2</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>有的电脑可能会提示缺少 lesscpy，继续 pip 安装</li>
+</ul>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip <span class="keyword">install</span> lesscpy</span><br></pre></td></tr></table></figure>
+<ul>
+<li>使用方法<figure class="highlight accesslog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">jt  <span class="string">[-h]</span> <span class="string">[-l]</span> <span class="string">[-t THEME]</span> <span class="string">[-f MONOFONT]</span> <span class="string">[-fs MONOSIZE]</span> <span class="string">[-nf NBFONT]</span></span><br><span class="line">    <span class="string">[-nfs NBFONTSIZE]</span> <span class="string">[-tf TCFONT]</span> <span class="string">[-tfs TCFONTSIZE]</span> <span class="string">[-dfs DFFONTSIZE]</span></span><br><span class="line">    <span class="string">[-m MARGINS]</span> <span class="string">[-cursw CURSORWIDTH]</span> <span class="string">[-cursc CURSORCOLOR]</span> <span class="string">[-vim]</span></span><br><span class="line">    <span class="string">[-cellw CELLWIDTH]</span> <span class="string">[-lineh LINEHEIGHT]</span> <span class="string">[-altp]</span> <span class="string">[-altmd]</span> <span class="string">[-altout]</span></span><br><span class="line">    <span class="string">[-P]</span> <span class="string">[-T]</span> <span class="string">[-N]</span> <span class="string">[-r]</span> <span class="string">[-dfonts]</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">cl options</th>
+<th style="text-align:center">arg</th>
+<th style="text-align:center">default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Usage help</td>
+<td style="text-align:center">-h</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">List Themes</td>
+<td style="text-align:center">-l</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Theme Name to Install</td>
+<td style="text-align:center">-t</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Code Font</td>
+<td style="text-align:center">-f</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Code Font-Size</td>
+<td style="text-align:center">-fs</td>
+<td style="text-align:center">11</td>
+</tr>
+<tr>
+<td style="text-align:left">Notebook Font</td>
+<td style="text-align:center">-nf</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Notebook Font Size</td>
+<td style="text-align:center">-nfs</td>
+<td style="text-align:center">13</td>
+</tr>
+<tr>
+<td style="text-align:left">Text/MD Cell Font</td>
+<td style="text-align:center">-tf</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Text/MD Cell Fontsize</td>
+<td style="text-align:center">-tfs</td>
+<td style="text-align:center">13</td>
+</tr>
+<tr>
+<td style="text-align:left">Pandas DF Fontsize</td>
+<td style="text-align:center">-dfs</td>
+<td style="text-align:center">9</td>
+</tr>
+<tr>
+<td style="text-align:left">Output Area Fontsize</td>
+<td style="text-align:center">-ofs</td>
+<td style="text-align:center">8.5</td>
+</tr>
+<tr>
+<td style="text-align:left">Mathjax Fontsize (%)</td>
+<td style="text-align:center">-mathfs</td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Intro Page Margins</td>
+<td style="text-align:center">-m</td>
+<td style="text-align:center">auto</td>
+</tr>
+<tr>
+<td style="text-align:left">Cell Width</td>
+<td style="text-align:center">-cellw</td>
+<td style="text-align:center">980</td>
+</tr>
+<tr>
+<td style="text-align:left">Line Height</td>
+<td style="text-align:center">-lineh</td>
+<td style="text-align:center">170</td>
+</tr>
+<tr>
+<td style="text-align:left">Cursor Width</td>
+<td style="text-align:center">-cursw</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Cursor Color</td>
+<td style="text-align:center">-cursc</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Alt Prompt Layout</td>
+<td style="text-align:center">-altp</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Alt Markdown BG Color</td>
+<td style="text-align:center">-altmd</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Alt Output BG Color</td>
+<td style="text-align:center">-altout</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Style Vim NBExt*</td>
+<td style="text-align:center">-vim</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Toolbar Visible</td>
+<td style="text-align:center">-T</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Name &amp; Logo Visible</td>
+<td style="text-align:center">-N</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Kernel Logo Visible</td>
+<td style="text-align:center">-kl</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Reset Default Theme</td>
+<td style="text-align:center">-r</td>
+<td style="text-align:center">–</td>
+</tr>
+<tr>
+<td style="text-align:left">Force Default Fonts</td>
+<td style="text-align:center">-dfonts</td>
+<td style="text-align:center">–</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>我的</li>
+</ul>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jt -t monokai -f consolamono -fs <span class="number">14</span> -tf consolamono -nfs <span class="number">14</span> -tfs <span class="number">14</span> -ofs <span class="number">14</span> -cellw <span class="number">1200</span> --lineh <span class="number">140</span>  -T -N</span><br></pre></td></tr></table></figure>
+<h2 id="补全"><a href="#补全" class="headerlink" title="补全"></a>补全</h2><ul>
+<li>安装 nbextensions</li>
+</ul>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip <span class="keyword">install </span><span class="keyword">jupyter_contrib_nbextensions</span></span><br><span class="line"><span class="keyword">jupyter </span>contrib nbextension <span class="keyword">install </span>--user</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装 nbextensions_configurator</li>
+</ul>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip <span class="keyword">install </span><span class="keyword">jupyter_nbextensions_configurator</span></span><br><span class="line"><span class="keyword">jupyter </span>nbextensions_configurator enable --user</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>缺少依赖，则使用pip安装</p>
+</li>
+<li><p>重启jupyter，打开Nbextensions标签页，勾选Hinterland</p>
+</li>
+</ul>
+<hr>
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag"># python</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/10/tensorflow-gpu/" rel="next" title="tensorflow-gpu">
+                <i class="fa fa-chevron-left"></i> tensorflow-gpu
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -386,8 +689,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -513,6 +825,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#主题"><span class="nav-number">1.</span> <span class="nav-text">主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#补全"><span class="nav-number">2.</span> <span class="nav-text">补全</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -655,6 +984,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.0"></script>
+<script src="/js/src/post-details.js?v=7.0.0"></script>
+
+
 
   
 
@@ -665,6 +998,8 @@
 
   
 
+
+  
 
 
   
