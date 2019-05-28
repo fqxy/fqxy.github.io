@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[python-skills]]></title>
+    <url>%2F2019%2F05%2F28%2Fpython-skills%2F</url>
+    <content type="text"><![CDATA[一些常用的Python技巧 字典 添加元素，统计次数 12345string = 'abbccc'count = &#123;&#125;for i in string: count[i] = count.get(i, 0) + 1print(count) numpypandas]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[keras-graphviz]]></title>
     <url>%2F2019%2F03%2F07%2Fkeras-graphviz%2F</url>
     <content type="text"><![CDATA[解决keras模型可视化的问题 问题 在运行Keras框架上的可视化代码时，遇到如下问题： 1OSError: pydot failed to call GraphViz.Please install GraphViz (https://www.graphviz.org/) and ensure that its executables are in the $PATH. 解决 安装相关模块： 123pip install pydot-ng pip install graphviz pip install pydot==1.2.3 下载文件：raphviz-2.38.msi 下载完成后直接安装到自己的指定目录，然后将其bin目录添加到环境变量 完成]]></content>
